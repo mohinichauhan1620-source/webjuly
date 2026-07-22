@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ text-align: center;
+            margin: auto;
+            margin-left: auto;
+            letter-spacing: normal;
+
+        }
+        form{
+            text-decoration: dashed;
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+     
+        <h1>Admission Form</h1> <hr>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="father_name">Father's Name:</label>
+            <input type="text" id="father_name" name="father_name" required><br><br>
+
+            <label for="mother_name">Mother's Name:</label>
+            <input type="text" id="mother_name" name="mother_name" required><br><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+            <label for="occupation">occupation</label>
+            <input type="text" id="occupation" name="occupation" required><br><br>
+
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Select a course</option>
+                <option value="computer_science">Computer Science</option>
+                <option value="business_administration">Business Administration</option>
+                <option value="psychology">Psychology</option>
+                <!-- Add more courses as needed -->
+            </select><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label><br><br>
+
+            <label for="photo">upload photo</label>
+            <input type="file" id="photo" name="photo" required><br><br>
+
+            <h3>or contact us for assistance our team will suport you regarding any registration questions</h3> <br>
+         <a href="tel:+91 9518675317">Call Us</a> <br><br>
+
+
+            <button type="submit">Submit</button>  <br>
+            <button type="reset">reset</button> <br> <br>
+            <a href="registration.html">back to home page</a>
+        </form>
+</body>
+</html>
